@@ -1,0 +1,17 @@
+knocks:
+       - protocol: tcp
+         port: 123
+         timeout: 10
+
+       - protocol: udp
+         port: 456
+         timeout: 20
+
+       - protocol: tcp
+         port: 789
+         timeout: 10
+
+target:
+       protocol: tcp
+       port: 7777
+       timeout: 120
